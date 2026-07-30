@@ -220,6 +220,34 @@
   }
   table.ref td.major{ color: #e0b96c; font-family:'Fraunces', serif;}
   table.ref td.minor{ color: #cb8790; font-family:'Fraunces', serif;}
+
+  .credit{
+    margin-top: 28px;
+    padding-top: 18px;
+    border-top: 1px solid #2e261d;
+    text-align: center;
+    font-size: 0.82rem;
+    color: var(--ivory-dim);
+    line-height: 1.8;
+  }
+  .credit .heart{ color: var(--wine); }
+  .credit a{
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color .15s ease;
+  }
+  .credit a:hover{ color: var(--ivory); }
+  .credit .ig{
+    display: block;
+    margin-top: 4px;
+    direction: ltr;
+    font-family: 'Fraunces', serif;
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--ivory-dim);
+  }
+  .credit a.ig:hover{ color: var(--gold); }
 </style>
 </head>
 <body>
@@ -252,6 +280,13 @@
     </thead>
     <tbody id="refBody"></tbody>
   </table>
+
+  <footer class="credit">
+    ساخته شده توسط
+    <a href="https://www.instagram.com/mohammadmehdihosseini/" target="_blank" rel="noopener noreferrer">محمدمهدی</a>
+    با <span class="heart">❤️</span>
+    <a class="ig" href="https://www.instagram.com/mohammadmehdihosseini/" target="_blank" rel="noopener noreferrer">@mohammadmehdihosseini</a>
+  </footer>
 </div>
 
 <script>
